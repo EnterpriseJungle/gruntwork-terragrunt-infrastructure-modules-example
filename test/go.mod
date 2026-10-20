@@ -1,8 +1,6 @@
 module github.com/gruntwork-io/terragrunt-infrastructure-modules-example
 
-go 1.23.0
-
-toolchain go1.23.7
+go 1.24
 
 require github.com/gruntwork-io/terratest v0.46.11
 
@@ -33,7 +31,7 @@ require (
 	github.com/hashicorp/terraform-json v0.13.0 // indirect
 	github.com/jinzhu/copier v0.0.0-20190924061706-b57f9002281a // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
-	github.com/klauspost/compress v1.15.11 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/mattn/go-zglob v0.0.2-0.20190814121620-e3c945676326 // indirect
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/mitchellh/go-testing-interface v1.14.1 // indirect
